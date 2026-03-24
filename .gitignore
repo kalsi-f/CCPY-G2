@@ -1,0 +1,6 @@
+venv/
+.venv/
+__pycache__/
+ejemplo_panaderia_jupyter.ipynb
+analisis_ingresos/casen_2024.dta*.dta
+analisis_ingresos/*.dta
