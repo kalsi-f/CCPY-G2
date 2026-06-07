@@ -43,7 +43,7 @@ CCPY-G2/
 
 ### Ingresos
 
-Análisis de indicadores relacionados con ingresos y brechas económicas utilizando datos derivados de la encuesta CASEN.
+Análisis de indicadores relacionados con ingresos y brechas económicas.
 
 ### Composición del Hogar e Inmigración
 
@@ -51,7 +51,7 @@ Estudio de la evolución de la inmigración internacional y su relación con car
 
 ### Educación
 
-Análisis de indicadores educacionales para el período 2017–2024 mediante datos CASEN.
+Análisis de indicadores educacionales.
 
 ### Vivienda
 
