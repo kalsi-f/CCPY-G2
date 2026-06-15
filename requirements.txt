@@ -1,0 +1,20 @@
+# Análisis de Datos y Estadísticas
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualización
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Mapas y Geometría
+geopandas>=1.0.0
+
+# Web Scraping (Módulo Vivienda)
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+
+# Soporte para leer archivos Excel (.xlsx)
+openpyxl>=3.0.10
+
+# Entorno de ejecución
+notebook>=6.5.0

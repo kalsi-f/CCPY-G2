@@ -39,6 +39,66 @@ CCPY-G2/
 
 ---
 
+
+## 🚀 Instalación y Ejecución (Despliegue local)
+
+Para ejecutar este proyecto y explorar los dashboards en tu máquina local, sigue estos pasos:
+
+### 1. Clonar el repositorio
+
+Abre tu terminal y clona este proyecto:
+
+Bash
+
+```
+git clone <URL_DE_TU_REPOSITORIO>
+cd CCPY-G2
+```
+
+### 2. Crear y activar el entorno virtual (Recomendado)
+
+Para evitar conflictos con otras librerías de tu sistema, crea un entorno virtual (`venv`):
+
+**En Linux / Mac (WSL):**
+
+Bash
+
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**En Windows (PowerShell):**
+
+PowerShell
+
+```
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+### 3. Instalar las dependencias
+
+Con el entorno virtual activado `(venv)`, instala todas las herramientas necesarias ejecutando:
+
+Bash
+
+```
+pip install -r requirements.txt
+```
+
+### 4. Iniciar el Dashboard
+
+Para ver el análisis interactivo, levanta el servidor de Jupyter Notebook:
+
+Bash
+
+```
+jupyter notebook
+```
+
+Esto abrirá una pestaña en tu navegador. Desde ahí, haz clic en el archivo `dashboard.ipynb` para visualizar el proyecto completo.
+
 ## Componentes
 
 ### Ingresos
@@ -61,40 +121,33 @@ Análisis de condiciones habitacionales, acceso a servicios básicos y caracter�
 
 Notebook que integra los principales indicadores y visualizaciones generados en las distintas etapas del proyecto.
 
----
-
 ## Tecnologías Utilizadas
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Jupyter Notebook
-
----
+- Python
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Geopandas
+- BeautifulSoup & Requests (Web Scraping)
+- Jupyter Notebook
 
 ## Fuentes de Datos
 
-* Encuesta CASEN
-* Biblioteca del Congreso Nacional (BCN)
-* Datos públicos de vivienda e información territorial
-* Otras fuentes complementarias utilizadas en cada análisis
-
----
+- Encuesta CASEN
+- Biblioteca del Congreso Nacional (BCN)
+- Datos públicos de vivienda e información territorial
+- Portales inmobiliarios (Scraping)
 
 ## Integrantes
 
-Cristóbal Espinoza
-Vicente Paredes
-Javier Ramírez
-Fabián Reyes
-
----
+- Cristóbal Espinoza
+- Vicente Paredes
+- Javier Ramírez
+- Fabián Reyes
 
 ## Resultados
 
 Los resultados consolidados pueden encontrarse en:
 
-* `Informe_Factores_Predominantes_PMD.pdf`
-* `presentacion_CCPY_G2.pptx`
-* `dashboard.ipynb`
+- `Informe_Factores_Predominantes_PMD.pdf`
+- `presentacion_CCPY_G2.pptx`
+- `dashboard.ipynb`
