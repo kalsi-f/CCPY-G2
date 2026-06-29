@@ -8,6 +8,12 @@ seaborn
 ipywidgets
 ipympl
 
+# Mapas / análisis geoespacial (mapas coropléticos por comuna)
+geopandas
+
 # Machine Learning y Modelos (Versión estandarizada del equipo)
 scikit-learn==1.8.0
 joblib
+
+# Ejecución de notebooks (kernel de Jupyter / VSCode)
+ipykernel
